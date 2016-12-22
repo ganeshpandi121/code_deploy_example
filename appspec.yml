@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /usr/local/nginx/html
+     destination: /usr/share/nginx/html/
 permissions:
-   - object: /usr/local/nginx/html
+   - object: /usr/share/nginx/html/
      pattern: "**"
      owner: apache
      group: apache
